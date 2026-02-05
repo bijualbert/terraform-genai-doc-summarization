@@ -16,7 +16,7 @@ name: 'integration'
 
 on:
   schedule:
-    # Run daily at 3AM UTC (1 hour before reporter runs at 5AM)
+    # Run daily at 3AM UTC (2 hours before reporter runs at 5AM)
     - cron: '0 3 * * *'
   workflow_dispatch:
 
