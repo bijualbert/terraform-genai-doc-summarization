@@ -15,6 +15,9 @@
 name: 'integration'
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Run daily at 3AM UTC (2 hours before reporter runs at 5AM)
     - cron: '0 3 * * *'
